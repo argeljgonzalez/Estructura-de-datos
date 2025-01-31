@@ -1,5 +1,5 @@
-class Main {
-    public static void main(String[] args){
+class Exe1 {
+    public void average() {
         int[] StudentPromarray = {55,80,70};
         
         int StudentTotalarray = 0; 

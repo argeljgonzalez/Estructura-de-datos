@@ -1,7 +1,7 @@
 import java.util.Random;
 
-class  Game {
-    public static void main(String[] args){
+class  Exe2 {
+    public void game(){
         String[] videogame = {"rock", "paper", "sissors"};
 
         Random randomize=  new Random();
