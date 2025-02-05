@@ -1,11 +1,21 @@
+/**
+ * Autor: Argel Jhamir Gonzalez Ontiveros
+ * Matrícula: 14571
+ * Fecha: 04-Feb-2025
+ */
+
+
 public class Estructuradatos {
     public static void main(String[] args) {
 
-        Exe1 objexe1 = new Exe1();
-        objexe1.average();
+        AverageStudentsGrades objaAverageStudentsGrades = new AverageStudentsGrades();
+        objaAverageStudentsGrades.averageStudent();
 
-        Exe2 objexe2 = new Exe2();
-        objexe2.game();
+        KidsGame objkKidsGame = new KidsGame();
+        objkKidsGame.gameElementsRandomize();
+
+        StudentsNames objStudentsNames = new StudentsNames();
+        objStudentsNames.showStudentsNames();
 
 
     }
