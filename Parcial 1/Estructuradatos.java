@@ -17,6 +17,11 @@ public class Estructuradatos {
         StudentsNames objStudentsNames = new StudentsNames();
         objStudentsNames.showStudentsNames();
 
+        UserData objUserData = new UserData();
+
+        String fullName =objUserData.fullName("Argel", "Lima");
+        System.out.println(fullName);
+
 
     }
     
