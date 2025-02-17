@@ -50,6 +50,22 @@ public class Estructuradatos {
          
         objScanner.close();
 
+        MultiDimensionalArray objMultiDimensionalArray = new MultiDimensionalArray();
+        objMultiDimensionalArray.printDimensionalArray();
+
+        Scanner objScanner1Scanner = new Scanner(System.in);
+
+        System.out.println("Ingrese el radio del circulo: ");
+        double radio =objScanner.nextDouble();
+
+        CircleArea objCircleArea = new CircleArea();
+        double area2 = objCircleArea.areaCalculator(radio);
+
+        System.out.println(area2);
+         
+        objScanner1Scanner.close();
+
+
 
     }
     
