@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Autor: Argel Jhamir Gonzalez Ontiveros
  * Matrícula: 14571
@@ -32,6 +34,22 @@ public class Estructuradatos {
 
         String attendanceStatus =objStudentsGrades.checkFailureByAbsences(64, 7);
         System.out.println(attendanceStatus);
+
+        Scanner objScanner = new Scanner(System.in);
+
+        System.out.println("Ingrese la base del triangulo: ");
+        double base =objScanner.nextDouble();
+
+        System.out.println("Ingresa la altura del triangulo: ");
+        double height= objScanner.nextDouble();
+
+        TriangleArea objTriangleArea = new TriangleArea();
+        double area = objTriangleArea.areaCalculate(base, height);
+
+        System.out.println(area);
+         
+        objScanner.close();
+
 
     }
     
