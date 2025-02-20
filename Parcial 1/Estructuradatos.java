@@ -65,6 +65,10 @@ public class Estructuradatos {
          
         objScanner1Scanner.close();
 
+        ExerciseNumberType objExerciseNumberType = new ExerciseNumberType();
+        objExerciseNumberType.oddOrEvenCalculator();
+
+
 
 
     }
